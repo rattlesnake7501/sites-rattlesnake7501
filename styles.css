@@ -1,0 +1,34 @@
+a {
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+.left
+{
+        padding-left:25px;
+}
+
+halloween_body
+{
+        background-repeat: no-repeat;
+        background-image: url("blooddrip.png");
+        background-position: center;
+        background-size: cover;
+        
+}
+.fix
+{
+    position:fixed;
+    bottom:10px;
+    left:80%;
+}
+.tree
+{
+	height:497.78;
+	width:350;
+}

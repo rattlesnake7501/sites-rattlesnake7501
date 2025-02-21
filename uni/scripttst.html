@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>JavaScript example</title>
+    <!-- Start of mouseover script -->
+    <script>
+        function ChangeImage(desktop) {
+            if (desktop)
+                pic.src = "imgs/desktopalt.jpg";
+            else
+                pic.src = "imgs/desktop.jpg";
+        }
+    </script>
+    <!-- End of mouseover script -->
+</head>
+
+<body>
+<h2>Move the mouse pointer over the image…</h2>
+<p><img src="imgs/desktop.jpg" name="pic" onMouseOver="ChangeImage(true)" 
+		onMouseOut="ChangeImage(false)"></p>
+</body>
+</html>

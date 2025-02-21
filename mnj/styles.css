@@ -1,0 +1,109 @@
+.font
+{
+    font-family:"Comic Sans MS";
+    color:red;
+}
+
+.background
+{
+    background-color:lime;
+}
+.nfm
+{
+    background-color:lime;
+        background-repeat: no-repeat;
+        background-image: url("imgs/newtm.png");
+        background-position: center;
+        background-size: 100% 100%;
+}
+
+.hbackground
+{
+        background-color:lime;
+        background-repeat: no-repeat;
+        background-image: url("imgs/halloween.gif");
+        background-position: center;
+        background-size: cover;
+}
+.bdbackground
+{
+        background-color:lime;
+        background-repeat: no-repeat;
+        background-image: url("imgs/hbd.gif");
+        background-position: center;
+        background-size: cover;
+}
+.christmasbackground
+{
+        background-color:lime;
+        background-repeat: no-repeat;
+        background-image: url("imgs/snow.gif");
+        background-position: center;
+        background-size: cover;
+} 
+.col
+{
+    border:460;
+}
+
+.img
+{
+    height:300px;
+    width:300px;
+}
+
+.made
+{
+    height:300px;
+    width:400px;
+}
+.sexies
+{
+    height:100px;
+    width:200px;
+}
+.uline
+{
+    text-decoration: underline;
+}
+.deez
+{
+    height:240px;
+    width:800px;
+}
+.buffer
+{
+   padding: 50px 30px 50px 30px;
+}
+
+</--Buttons-->
+
+.button {
+  background-color: orange;
+  border: blue;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: comic sans;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</---->
+
+.inactiveLink 
+{
+   pointer-events: none;
+   cursor: default;
+}

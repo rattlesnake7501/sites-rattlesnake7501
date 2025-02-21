@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Public IP Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your Public IP Address</h1>
+  <p id="ip-address">Loading...</p>
+
+  <script>
+    // Function to fetch the public IP address
+    function getPublicIP() {
+      fetch('https://cors-anywhere.herokuapp.com/https://api.ipify.org/?format=json')
+        .then(response => response.json())
+        .then(data => {
+          const ipAddress = data.ip;
+          document.getElementById('ip-address').textContent = ipAddress;
+        })
+        .catch(error => {
+          console.log('Error:', error);
+          document.getElementById('ip-address').textContent = 'Failed to fetch IP address';
+        });
+    }
+
+    // Call the function when the page loads
+    window.addEventListener('load', getPublicIP);
+  </script>
+</body>
+</html>

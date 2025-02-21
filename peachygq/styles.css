@@ -1,0 +1,39 @@
+.background
+{
+	!background-color:grey;
+	color:white;
+}
+.titlefont
+{
+	font-family:trend-sans-w00-four,sans-serif;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.button {
+    background-color: #b600ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+body {
+   background-image: url("background.png");
+    background-repeat: no-repeat;
+	 background-attachment: fixed;
+    background-position:center; 
+	background-size:cover;
+   background-color: #f9d4b3;
+}
+.about
+{
+    color:#FFFFF
+}
+.shadow
+{
+    text-shadow: 2px 2px;
+}

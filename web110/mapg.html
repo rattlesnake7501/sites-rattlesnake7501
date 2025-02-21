@@ -1,0 +1,76 @@
+ <html>
+	<head class="hcol">
+		<link rel="stylesheet" href="w3.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>	Interactive Map </title>
+	<script>
+		function writetext(description)
+		{
+			document.getElementById("txt").innerHTML=description;
+		}	
+	</script>
+	</head>
+	
+
+	<body class="bcol">	
+	<div class="w3-row hcol">
+		<div class="w3-col s12 w3-image">
+			<a href="."><img src="logo.png" alt="logo"></a>
+		</div>
+	</div>
+	<nav class="hcol">
+		<div class="w3-row hcol">
+			<div class="right w3-col s12 w3-image">
+				<a class="button" href=".">Home</a>
+				<a class="selected" href="map">Interactive map</a>
+				<a class="button" href="aus">About Us</a>
+				<a class="button" href="cus">Contact Us</a>
+			</div>
+		</div>
+	</nav>
+<div class="w3-row hcol">
+			<div id="height" class="w3-col s2 w3-image">
+				<center>
+						<a class="button" href="cs">Computer Science</a><br>
+						<a class="button" href="hab">Hair and Beauty</a><br>
+						<a class="button" href="bait">Buisness and IT</a><br>
+						<a class="button" href="Avi">Avaiation</a><br>
+						<a class="button" href="Eng">Engineering</a>
+				</center>	
+			</div>
+			<div id="height" class="w3-col s10 w3-image bcol">
+				<center>
+					<h2 class="uline">Printworks Campus Interactive map</h2>
+					<br><br>
+
+	<h3 id="txt"> Hover over a room to get more infomation.</h3> <h4>Ground Floor</h4>	
+				
+	<!-- this is the image to be used for mapping different areas -->
+	<img src="images/Floor A0.jpg" class="" alt="Floor A0" usemap="#roommap" />
+	
+	<!-- within the mapping area are the individual mapped coordinates -->
+	<map name="roommap">
+		<!-- Rectangle -->
+		<area shape="rect" coords="960,69,1164,163" onmouseover="writetext('Ilas Room')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="ila" />
+		
+		<area shape="rect" coords="741,65,956,164" onmouseover="writetext('IT Fix it Shop')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="IT Fix it shop" />
+		
+		<area shape="rect" coords="518,66,736,164" onmouseover="writetext('Martins room')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="Martin Room" />
+		
+		<area shape="rect" coords="302,69,512,163" onmouseover="writetext('Chris Room')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="chris Room" />
+		
+		<area shape="poly" coords="250,487,688,479,687,595,570,598,568,692,779,699,771,860,125,853,128,792,184,797,188,706,244,706" onmouseover="writetext('Restaurant')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="restaurant" />
+		
+		<area shape="poly" coords="482,242,708,237,683,293,685,352,707,408,486,406" onmouseover="writetext('The Cube')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="The Cube" />
+		
+		<area shape="poly" coords="245,592,75,582,77,111,128,63,282,68,291,159,232,162,229,263,246,263,263,378,230,385" onmouseover="writetext('The Beauty Centre')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="The Beauty Centre" />
+		
+		
+  
+	</map>
+	
+	
+</body> 
+	
+	</body>
+</html>

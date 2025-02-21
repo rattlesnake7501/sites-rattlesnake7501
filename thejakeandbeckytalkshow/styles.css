@@ -1,0 +1,164 @@
+.bk
+{
+    background-color:#595458;
+    color:#27cad3;
+}
+.size
+{
+    height:250px;
+    width:250px;
+}
+.small
+{
+    font-size: 7.5px;
+}
+
+.soundcloudlinks
+{
+    height:30px;
+    width:30px;
+}
+.twitterlinks
+{
+    height:25px;
+    width:25px;
+}
+.youtubelinks
+{
+    height:19px;
+    width:25px;
+}
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.shit
+{
+        import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+        font-family: 'Karla', sans-serif;
+        font-weight:bold;
+        font-size:49px;
+}
+.shit_bk
+{
+        background-color:#414543;
+        NOT-background-color:#6f0dad;
+        color:white;
+}
+
+.lob
+{
+        height:50;
+        width:270;
+}
+
+.scb
+{
+        height:69;
+        width:258;
+}
+
+.icon
+{
+        height:32;
+        width:32;
+}
+
+.home
+{
+position: absolute;
+top: 3px;
+right: 100px;
+}
+
+.homeb
+{
+width:33px;
+height:33px;
+}
+
+.homec
+{
+top: 20px;
+}
+
+.rtitle
+{
+position: relative;
+align: center;
+top:10px;
+}
+.links
+{
+position: absolute;
+top: 3px;
+left: 100px;
+}
+
+.jabfont
+{
+        @import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+        font-family: 'Hepta Slab', serif;
+        font-weight:;
+        font-size:49px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #595458;
+  border: none;
+  color: #27cad3;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  left: -120px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 30px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}.jabback
+{
+    background-color:#595458;
+    color:#27cad3;
+}
+
+.jabfont
+{
+        @import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+        font-family: 'Hepta Slab', serif;
+        font-weight:;
+        font-size:49px;
+}

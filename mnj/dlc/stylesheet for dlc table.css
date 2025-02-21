@@ -1,0 +1,29 @@
+body{
+	background-color:#00ff04;
+}
+h1{
+	color: tomato;
+	font-family:cursive, sans-serif
+}
+th{
+	color: tomato;
+	font-family:cursive, sans-serif
+}
+td{
+	color: tomato;
+	font-family:cursive, sans-serif
+}
+img:hover{
+	height: 200px;
+	width: 300px;
+	background-color:#ff00e1
+}
+tr:hover{
+	background-color: #ff00f6;
+}
+a{
+	color: plum
+}
+a:hover{
+	color: yellow
+}

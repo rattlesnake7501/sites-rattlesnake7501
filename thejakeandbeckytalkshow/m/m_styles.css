@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+#index{
+zoom: 230%;
+}
+#jake{
+zoom: 450%;
+}
+
+.linksm
+{
+position: absolute;
+top: 50px;
+left: 100px;
+}
+
+.homem
+{
+position: absolute;
+top: 50px;
+right: 100px;
+}
+.linksmc
+{
+position: absolute;
+top: 95px;
+left: 100px;
+}
+.homemc
+{
+position: absolute;
+top: 105px;
+right: 100px;
+}
+
+.daysm
+{
+	height:300px;
+	width:300px;
+}

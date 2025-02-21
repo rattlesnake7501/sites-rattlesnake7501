@@ -1,0 +1,64 @@
+ <html>
+	<head class="hcol">
+		<link rel="stylesheet" href="w3.css" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>	Interactive Map </title>
+	<script>
+		function writetext(description)
+		{
+			document.getElementById("txt").innerHTML=description;
+		}	
+	</script>
+	</head>
+	
+
+	<body class="bcol">	
+	<div class="w3-row hcol">
+		<div class="w3-col s12 w3-image">
+			<a href="."><img src="logo.png" alt="logo"></a>
+		</div>
+	</div>
+	<nav class="hcol">
+		<div class="w3-row hcol">
+			<div class="right w3-col s12 w3-image">
+				<a class="button" href=".">Home</a>
+				<a class="selected" href="map">Interactive map</a>
+				<a class="button" href="aus">About Us</a>
+				<a class="button" href="cus">Contact Us</a>
+			</div>
+		</div>
+	</nav>
+<div class="w3-row hcol">
+			<div id="height" class="w3-col s2 w3-image">
+				<center>
+						<a class="button" href="cs">Computer Science</a><br>
+						<a class="button" href="hab">Hair and Beauty</a><br>
+						<a class="button" href="bait">Buisness and IT</a><br>
+						<a class="button" href="Avi">Avaiation</a><br>
+						<a class="button" href="Eng">Engineering</a>
+				</center>	
+			</div>
+			<div id="height" class="w3-col s10 w3-image bcol">
+				<center>
+					<h2 class="uline">Printworks Campus Interactive map</h2>
+					<br><br>
+
+	<h3 id="txt"> Hover over a room to get more infomation.</h3> <h4>Second Floor</h4>	
+				
+	<!-- this is the image to be used for mapping different areas -->
+	<img src="images/Floor A2.JPG" class="" alt="Floor A2" usemap="#roommap" />
+	
+	<!-- within the mapping area are the individual mapped coordinates -->
+	<map name="roommap">
+		<!-- Rectangle -->
+		<area shape="rect" coords="426,56,643,132" onmouseover="writetext('Wendys Room')" onmouseleave="writetext('Hover over a room to get more infomation.')" alt="wendy" />
+	
+	</map>
+        <BR>
+        <br>
+	
+	
+</body> 
+	
+	</body>
+</html>
